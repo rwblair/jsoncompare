@@ -1,9 +1,9 @@
-##Install
+## Install
 ```bash
 pip install jsoncompare
 ```
 
-##Explanation
+## Explanation
 *  Being able to tell whether or not an arbitrarily nested json blob is the same as another blob can hurt your eyes.
 *  Additional complexity comes in when your json array's order doesn't matter.
 *  For example, you might have a set in Java that you are going to send over the wire as json. It may be represented as a json array but in actuality, you don't care about the order.
@@ -13,7 +13,7 @@ pip install jsoncompare
     0.1.1      Orginal Version
     0.1.2      Adds support for "contains"
 
-##Examples
+## Examples
 ```python
 from jsoncompare import jsoncompare
 
